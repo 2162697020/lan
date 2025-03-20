@@ -1,0 +1,28 @@
+            - 名称：Rational Test Automation Server GitHub Action
+  # 您可以固定到精确的提交或版本。
+  # 使用：IBM/devopsauto-testserver-actions@c704855bdbbae4f0df152919d00fb0bd40f67ee0
+  使用：IBM/devopsauto-testserver-actions@v1
+  和：
+    # Rational 测试自动化服务器 URL
+    服务器网址：
+    # Rational 测试自动化服务器离线令牌
+    离线令牌：
+    # 团队空间名称
+    团队空间：
+    # 项目名称
+    项目：
+    # 测试所在的分支名称
+    分支：
+    # Rational Test Automation Server 中测试的 AssetId。
+    资产编号：
+    # 可选。与测试对应的测试环境。如果要运行 API 测试，则必须输入此值。
+    环境：#可选
+    # 可选。要运行的作业的数据集的逗号 (,) 分隔值，例如：source:replacement;source:replacement
+    数据集：# 可选
+    # 可选。与测试对应的标签。例如：label1、label2
+    标签：#可选
+    # 可选。要运行的作业的机密集合名称。
+    secretsCollection: # 可选
+    # 可选。与测试对应的变量。您必须以以下格式输入变量：变量名称=变量值
+    变量：#可选
+          
